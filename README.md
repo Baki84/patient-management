@@ -24,15 +24,15 @@ It includes:
 
 
 Client
-   ↓
+   ->
 API Gateway (JWT Validation)
-   ↓
+   ->
 Auth Service  ←→ PostgreSQL
-   ↓
+   ->
 Patient Service ←→ PostgreSQL
-   ↓ (gRPC)
+   -> (gRPC)
 Billing Service
-   ↓ (Kafka Events)
+   -> (Kafka Events)
 Notification / Analytics Service
 Uses:
 
@@ -100,4 +100,5 @@ Maven
 📚 Purpose
 
 This project is built for educational purposes and demonstrates real-world microservices architecture using Spring Boot ecosystem.
+
 
