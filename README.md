@@ -1,8 +1,9 @@
 🏥 Patient Management Microservices System
-
+==================================================
 This project is a Java / Spring Boot Microservices Architecture demonstrating a real-world healthcare backend system.
 
 It includes:
+----------------
 
 🔐 JWT Authentication
 
@@ -21,7 +22,7 @@ It includes:
 🧪 Integration Testing
 
 🏗 Architecture Overview
-
+----------------------------
 
 Client
    ->
@@ -49,6 +50,7 @@ protobuf-java
 📡 Kafka + Zookeeper Setup (Confluent)
 
 🚀 How To Run
+==================
 1️⃣ Start Zookeeper
 2️⃣ Start Kafka
 3️⃣ Start PostgreSQL containers
@@ -61,6 +63,7 @@ protobuf-java
 
 
 🛠 Tech Stack
+----------------
 
 Java 21
 
@@ -83,9 +86,9 @@ PostgreSQL
 Docker
 
 Maven
-
+=================
 🎯 Features
-
+==================
 ✔ API Gateway Routing
 ✔ JWT Token Authentication
 ✔ Role-based Authorization
@@ -97,7 +100,7 @@ Maven
 
 
 🐳 Docker Images Used
-
+---------------------------
 This project supports multiple Kafka/Zookeeper images depending on availability:
 
 Option 1 (Preferred)
@@ -115,6 +118,7 @@ confluentinc/cp-zookeeper
 ✅ Note: If bitnami/kafka image is not available or fails to pull, you can use apache/kafka and confluentinc/cp-zookeeper as an alternative setup.
 
 This ensures flexibility and compatibility across environments
+
 
 
 
