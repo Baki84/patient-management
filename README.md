@@ -86,7 +86,7 @@ PostgreSQL
 Docker
 
 Maven
-=================
+
 🎯 Features
 ==================
 ✔ API Gateway Routing
@@ -118,6 +118,7 @@ confluentinc/cp-zookeeper
 ✅ Note: If bitnami/kafka image is not available or fails to pull, you can use apache/kafka and confluentinc/cp-zookeeper as an alternative setup.
 
 This ensures flexibility and compatibility across environments
+
 
 
 
