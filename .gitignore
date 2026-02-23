@@ -1,0 +1,25 @@
+# Maven
+target/
+
+# Logs
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# CDK
+cdk.out/
+
+# HTTP client temp files
+.idea/httpRequests/
+.idea/httpClient/
+.fastRequest/
+
+# Installers & archives
+*.exe
+*.msi
+*.zip

@@ -1,0 +1,10 @@
+###LOGIN request to retrive a token
+
+POST http://lb-3bf726b2.elb.localhost.localstack.cloud:4005/login
+Content-Type: application/json
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+

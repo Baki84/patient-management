@@ -1,0 +1,20 @@
+spring:
+  kafka:
+    producer:
+      value-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+  application:
+    name: patient-service
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+billing:
+  service:
+    grpc:
+      address: localhost
+      port: 9001
+server:
+  port: 4000
+logging:
+  level:
+    root: info
