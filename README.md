@@ -96,9 +96,25 @@ Maven
 ✔ Containerized Infrastructure
 
 
+🐳 Docker Images Used
 
-📚 Purpose
+This project supports multiple Kafka/Zookeeper images depending on availability:
 
-This project is built for educational purposes and demonstrates real-world microservices architecture using Spring Boot ecosystem.
+Option 1 (Preferred)
+
+bitnami/kafka
+
+bitnami/zookeeper
+
+Option 2 (If Bitnami image not found)
+
+apache/kafka
+
+confluentinc/cp-zookeeper
+
+✅ Note: If bitnami/kafka image is not available or fails to pull, you can use apache/kafka and confluentinc/cp-zookeeper as an alternative setup.
+
+This ensures flexibility and compatibility across environments
+
 
 
